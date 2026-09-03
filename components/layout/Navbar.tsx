@@ -1,10 +1,11 @@
+import { NavbarLinksData } from "@/data/navbarLinkData.data";
 import Link from "next/link";
 
-export default function Navbar () {
-    return(
-         <header className="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/90 backdrop-blur-xl">
+export default function Navbar() {
+    return (
+        <header className="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/90 backdrop-blur-xl">
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8 lg:px-12">
-                
+
                 {/* Logo */}
                 <Link
                     href="#"
@@ -14,42 +15,16 @@ export default function Navbar () {
                 </Link>
 
                 {/* Navigation Links */}
-                <div className="hidden items-center gap-8 md:flex">
-                    <Link
-                        href="#"
-                        className="text-sm font-medium text-slate-300 transition hover:text-cyan-400"
-                    >
-                        Home
-                    </Link>
-
-                    <Link
-                        href="#"
-                        className="text-sm font-medium text-slate-300 transition hover:text-cyan-400"
-                    >
-                        Courses
-                    </Link>
-
-                    <Link
-                        href="#"
-                        className="text-sm font-medium text-slate-300 transition hover:text-cyan-400"
-                    >
-                        Categories
-                    </Link>
-
-                    <Link
-                        href="#"
-                        className="text-sm font-medium text-slate-300 transition hover:text-cyan-400"
-                    >
-                        About
-                    </Link>
-
-                    <Link
-                        href="#"
-                        className="text-sm font-medium text-slate-300 transition hover:text-cyan-400"
-                    >
-                        Contact
-                    </Link>
-                </div>
+                {NavbarLinksData.map((link) => (
+                    <div className="hidden items-center gap-8 md:flex" key={link.id}>
+                        <Link
+                            href={link.href}
+                            className="text-sm font-medium text-slate-300 transition hover:text-cyan-400"
+                        >
+                            {link.name}
+                        </Link>
+                    </div>
+                ))}
 
                 {/* Buttons */}
                 <div className="flex items-center gap-3">
