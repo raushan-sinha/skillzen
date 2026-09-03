@@ -8,7 +8,7 @@ export default function Navbar() {
 
                 {/* Logo */}
                 <Link
-                    href="#"
+                    href="/"
                     className="text-2xl font-bold tracking-tight text-white"
                 >
                     Skill<span className="text-cyan-400">Zen</span>
