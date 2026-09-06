@@ -1,3 +1,4 @@
+import { NavbarLinks } from "@/data/navbarLinkData.data";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -15,40 +16,15 @@ export default function Navbar() {
 
                 {/* Navigation Links */}
                 <div className="ml-auto hidden items-center gap-6 lg:flex xl:gap-8">
-                    <Link
-                        href="#"
-                        className="text-sm font-medium text-slate-300 transition-colors hover:text-cyan-400"
-                    >
-                        Home
-                    </Link>
-
-                    <Link
-                        href="#"
-                        className="text-sm font-medium text-slate-300 transition-colors hover:text-cyan-400"
-                    >
-                        Courses
-                    </Link>
-
-                    <Link
-                        href="#"
-                        className="text-sm font-medium text-slate-300 transition-colors hover:text-cyan-400"
-                    >
-                        Categories
-                    </Link>
-
-                    <Link
-                        href="#"
-                        className="text-sm font-medium text-slate-300 transition-colors hover:text-cyan-400"
-                    >
-                        Instructors
-                    </Link>
-
-                    <Link
-                        href="#"
-                        className="text-sm font-medium text-slate-300 transition-colors hover:text-cyan-400"
-                    >
-                        About
-                    </Link>
+                    {NavbarLinks.map((link) => (
+                        <Link
+                            key={link.id}
+                            href={link.href}
+                            className="text-sm font-medium text-slate-300 transition-colors hover:text-cyan-400"
+                        >
+                            {link.name}
+                        </Link>
+                    ))}
                 </div>
 
                 {/* Auth Buttons */}
