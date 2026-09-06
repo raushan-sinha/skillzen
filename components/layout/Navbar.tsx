@@ -20,7 +20,7 @@ export default function Navbar() {
                         <Link
                             key={link.id}
                             href={link.href}
-                            className="text-sm font-medium text-slate-300 transition-colors hover:text-cyan-400"
+                            className="relative text-sm font-medium text-slate-300 transition-colors duration-200 hover:text-cyan-400 after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:rounded-full after:bg-gradient-to-r after:from-cyan-400 after:to-blue-500 after:transition-all after:duration-300 after:ease-out hover:after:w-full"
                         >
                             {link.name}
                         </Link>
