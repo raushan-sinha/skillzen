@@ -29,7 +29,9 @@
     "ignorePaths": [],
     "dictionaryDefinitions": [],
     "dictionaries": [],
-    "words": [],
+    "words": [
+      "Skillmyze"
+    ],
     "ignoreWords": [],
     "import": []
   }
