@@ -45,7 +45,7 @@ export default function HeroSection() {
 
                         <Link
                             href="/about"
-                            className="w-full rounded-xl border border-slate-700 bg-slate-900/60 px-7 py-3.5 text-center text-sm font-semibold text-slate-200 transition-all duration-300 hover:border-cyan-400/40 hover:bg-slate-800 sm:w-auto"
+                            className="w-full rounded-xl border border-slate-700 bg-slate-900 px-7 py-3.5 text-center text-sm font-semibold text-slate-200 transition-all duration-300 hover:border-cyan-400/40 hover:bg-slate-800 sm:w-auto"
                         >
                             Learn More
                         </Link>
