@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
     return (
-        <section className="relative overflow-hidden bg-slate-950 px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-28">
+        <section className="relative overflow-hidden bg-white px-5 py-16 sm:px-8 sm:py-20 lg:px-12 lg:py-10">
             <div className="pointer-events-none absolute -left-32 top-10 h-72 w-72 rounded-full bg-cyan-500/10 blur-3xl" />
             <div className="pointer-events-none absolute -right-32 bottom-0 h-80 w-80 rounded-full bg-blue-500/10 blur-3xl" />
 
@@ -13,13 +13,13 @@ export default function HeroSection() {
                 <div className="w-full max-w-2xl text-center lg:w-[52%] lg:text-left">
 
                     {/* Small Badge */}
-                    <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/5 px-4 py-2 text-sm font-medium text-cyan-300">
+                    <div className="mb-5 inline-flex items-center gap-2 rounded-full border-2 border-cyan-400 bg-cyan-400/5 px-4 py-2 text-sm font-bold text-cyan-400">
                         <span className="h-2 w-2 rounded-full bg-cyan-400" />
                         Learn. Build. Grow.
                     </div>
 
                     {/* Heading */}
-                    <h1 className="font-sans text-4xl font-extrabold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl xl:text-7xl">
+                    <h1 className="font-sans text-4xl font-extrabold leading-[1.1] tracking-tight text-black sm:text-5xl lg:text-6xl xl:text-7xl">
                         Empower Your Future with{" "}
                         <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
                             Industry-Ready Skills
@@ -56,7 +56,7 @@ export default function HeroSection() {
 
                         {/* Learners */}
                         <div className="px-5 text-center sm:text-left">
-                            <h3 className="text-2xl font-bold text-white sm:text-3xl">
+                            <h3 className="text-2xl font-bold text-black sm:text-3xl">
                                 14 Lakhs+
                             </h3>
                             <p className="mt-1 text-sm text-slate-500">
@@ -69,7 +69,7 @@ export default function HeroSection() {
 
                         {/* Courses */}
                         <div className="px-5 text-center sm:text-left">
-                            <h3 className="text-2xl font-bold text-white sm:text-3xl">
+                            <h3 className="text-2xl font-bold text-black sm:text-3xl">
                                 50+
                             </h3>
                             <p className="mt-1 text-sm text-slate-500">
