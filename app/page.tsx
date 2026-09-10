@@ -1,9 +1,10 @@
-import { HeroSection } from "@/components/home";
+import { HeroSection, WhyChooseSection } from "@/components/home";
 
 export default function Home() {
     return (
         <>
             <HeroSection />
+            <WhyChooseSection />
         </>
     )
 }
