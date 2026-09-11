@@ -70,7 +70,7 @@ export default function TrendingCourses() {
                                     </span>
                                 </div>
 
-                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700">
+                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700 cursor-pointer">
                                     Explore
                                 </button>
                             </div>
@@ -120,7 +120,7 @@ export default function TrendingCourses() {
                                     </span>
                                 </div>
 
-                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700">
+                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700 cursor-pointer">
                                     Explore
                                 </button>
                             </div>
@@ -170,7 +170,7 @@ export default function TrendingCourses() {
                                     </span>
                                 </div>
 
-                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700">
+                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700 cursor-pointer">
                                     Explore
                                 </button>
                             </div>
@@ -220,7 +220,7 @@ export default function TrendingCourses() {
                                     </span>
                                 </div>
 
-                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700">
+                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700 cursor-pointer">
                                     Explore
                                 </button>
                             </div>
@@ -270,7 +270,7 @@ export default function TrendingCourses() {
                                     </span>
                                 </div>
 
-                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700">
+                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700 cursor-pointer">
                                     Explore
                                 </button>
                             </div>
@@ -320,7 +320,7 @@ export default function TrendingCourses() {
                                     </span>
                                 </div>
 
-                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700">
+                                <button className="rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-700 cursor-pointer">
                                     Explore
                                 </button>
                             </div>
