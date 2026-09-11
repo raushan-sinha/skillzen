@@ -10,7 +10,7 @@ export default function WhyChooseSection() {
             <div className="relative mx-auto max-w-7xl">
                 {/* Section Header */}
                 <div className="mx-auto max-w-3xl text-center">
-                    <span className="mb-4 inline-flex rounded-full border border-cyan-400/20 bg-cyan-400/5 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-black">
+                    <span className="mb-4 inline-flex rounded-full border border-cyan-400/20 bg-cyan-400 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-black">
                         Why SkillZen
                     </span>
 
