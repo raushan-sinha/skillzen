@@ -89,7 +89,7 @@ export default function HeroSection() {
                         {/* Image */}
                         <div className="relative">
                             <Image
-                                src="/HeroImage.png"
+                                src="/images/home/HeroImage.png"
                                 alt="SkillZen online learning platform"
                                 width={620}
                                 height={520}
